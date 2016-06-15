@@ -1,3 +1,3 @@
 # Weather Application
 
-A simple pomodoro timer built using React and Webpack
+A simple weather application built using React and Webpack
