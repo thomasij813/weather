@@ -1,11 +1,13 @@
 import React from 'react';
-import {render} from 'react-dom'
+import {render} from 'react-dom';
 
-require('./sass/style.scss')
+import Main from './containers/Main.js'
+
+require('./sass/style.scss');
 
 const HelloWorld = () => <h1>Hello World</h1>;
 
 render(
-  <HelloWorld />,
+  <Main />,
   document.getElementById('app')
-)
+);
